@@ -1,3 +1,4 @@
+#!/usr/bin/env -S python3 -u
 import os 
 
 def ghSet(varName, content):
