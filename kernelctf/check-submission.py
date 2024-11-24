@@ -1,5 +1,6 @@
 #!/usr/bin/env -S python3 -u
-import os 
+import os
+import json
 
 def ghSet(varName, content):
     varName = f"GITHUB_{varName}"
