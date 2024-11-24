@@ -10,4 +10,4 @@ def ghSet(varName, content):
 ghSet("OUTPUT", f"targets=targets_test")
 ghSet("OUTPUT", f"submission_dir=submission_dir_test")
 ghSet("OUTPUT", f"exploits_info=exploits_info_test")
-ghSet("OUTPUT", f"artifact_backup_dir=artifact_backup_dir_test")
+ghSet("OUTPUT", f"artifact_backup_dir=artifact_backup_dir_test11")
