@@ -65,7 +65,7 @@ jobs:
         uses: 'google-github-actions/upload-cloud-storage@v2'
         with:
           path: ./artifacts
-          destination: kernelctf-build/artifacts/${{ needs.structure_check.outputs.artifact_backup_dir }}_${{ github.run_id }}
+          destination: testkerbucket/artifacts/${{ needs.structure_check.outputs.artifact_backup_dir }}_${{ github.run_id }}
           parent: false
           predefinedAcl: publicRead
           process_gcloudignore: false # removes warnings that .gcloudignore file does not exist
